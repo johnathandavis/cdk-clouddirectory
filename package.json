@@ -1,0 +1,56 @@
+{
+  "name": "@john-davis/cdk-clouddirectory",
+  "version": "1.0.0",
+  "description": "Usable CDK Constructs for AWS CloudDirectory CloudRegistry Resources",
+  "scripts": {
+    "build": "jsii",
+    "watch": "jsii -w",
+    "package": "jsii-pacmak -vv",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "keywords": [
+    "cdk",
+    "clouddirectory"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "jsii": {
+    "outdir": "dist",
+    "versionFormat": "short",
+    "targets": {
+    }
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ]
+  },
+  "author": {
+    "email": "johnathan.davis@outlook.com",
+    "name": "John Davis",
+    "url": "https://github.com/johnathandavis"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnathandavis/cfn-registry-clouddirectory.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.9.0",
+    "@types/node": "13.1.7",
+    "jest": "^24.9.0",
+    "jsii": "^0.21.1",
+    "jsii-pacmak": "^0.21.1",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-s3-assets": "^1.21.1",
+    "@aws-cdk/core": "^1.20.0"
+  },
+  "peerDependencies": {
+    "@aws-cdk/core": "^1.20.0",
+    "@aws-cdk/aws-s3-assets": "^1.21.1"
+  },
+  "stability": "experimental"
+}
